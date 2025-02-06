@@ -1,0 +1,2101 @@
+{
+    "jawwal":[
+
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        }
+    ],
+    "batelco": [
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        },
+        {
+            "title": "INVALID_HTTP_METHOD",
+            "message": "INVALID HTTP METHOD",
+            "code": 1000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_API_KEY",
+            "message": "INVALID API KEY",
+            "code": 1001,
+            "successful": false
+        },
+        {
+            "title": "MISSING_API_KEY",
+            "message": "MISSING API KEY",
+            "code": 1002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_METHOD_NAME",
+            "message": "INVALID METHOD NAME",
+            "code": 1003,
+            "successful": false
+        },
+        {
+            "title": "API_MODULE_NOT_FOUND",
+            "message": "API MODULE NOT FOUND",
+            "code": 1004,
+            "successful": false
+        },
+        {
+            "title": "API_METHOD_NOT_FOUND",
+            "message": "API METHOD NOT FOUND",
+            "code": 1005,
+            "successful": false
+        },
+        {
+            "title": "API_PERMISSION_DENIED",
+            "message": "API PERMISSION DENIED",
+            "code": 1006,
+            "successful": false
+        },
+        {
+            "title": "MISSING_PARAM",
+            "message": "MISSING PARAM",
+            "code": 1007,
+            "successful": false
+        },
+        {
+            "title": "TOO_MANY_PARAMS",
+            "message": "TOO MANY PARAMS",
+            "code": 1008,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_PERMISSION_DENIED",
+            "message": "CHANNEL PERMISSION DENIED",
+            "code": 1009,
+            "successful": false
+        },
+        {
+            "title": "IP_PERMISSION_DENIED",
+            "message": "IP PERMISSION DENIED",
+            "code": 1010,
+            "successful": false
+        },
+        {
+            "title": "BLACKLIST",
+            "message": "BLACKLIST",
+            "code": 2000,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_FOUND",
+            "message": "USER NOT FOUND",
+            "code": 2001,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_SUBSCRIBED",
+            "message": "USER ALREADY SUBSCRIBED",
+            "code": 2002,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_UNSUBSCRIBED",
+            "message": "USER ALREADY UNSUBSCRIBED",
+            "code": 2003,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_SUBSCRIBED",
+            "message": "USER NOT SUBSCRIBED",
+            "code": 2004,
+            "successful": false
+        },
+        {
+            "title": "MSISDN_REQUIRED",
+            "message": "MSISDN REQUIRED",
+            "code": 2005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MSISDN",
+            "message": "INVALID MSISDN",
+            "code": 2006,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_INSERTED",
+            "message": "OTP RECORD NOT INSERTED",
+            "code": 2007,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_FOUND",
+            "message": "OTP RECORD NOT FOUND",
+            "code": 2008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PINCODE",
+            "message": "INVALID PINCODE",
+            "code": 2009,
+            "successful": false
+        },
+        {
+            "title": "PINCODE_ALREADY_SENT",
+            "message": "PINCODE ALREADY SENT",
+            "code": 2010,
+            "successful": false
+        },
+        {
+            "title": "PIN_LIMIT_EXCEEDED",
+            "message": "PIN LIMIT EXCEEDED",
+            "code": 2011,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_PIN",
+            "message": "EXPIRED PIN",
+            "code": 2012,
+            "successful": false
+        },
+        {
+            "title": "INSUFFICIENT_BALANCE",
+            "message": "INSUFFICIENT BALANCE",
+            "code": 2013,
+            "successful": false
+        },
+        {
+            "title": "SUBSCRIPTION_FAIL",
+            "message": "SUBSCRIPTION FAIL",
+            "code": 2014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_AMOUNT",
+            "message": "INVALID AMOUNT",
+            "code": 2015,
+            "successful": false
+        },
+        {
+            "title": "BILLING_FAILED",
+            "message": "BILLING FAILED",
+            "code": 2016,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_CLICK_ID",
+            "message": "EXPIRED CLICK ID",
+            "code": 2017,
+            "successful": false
+        },
+        {
+            "title": "INVALID_TOKEN",
+            "message": "INVALID TOKEN",
+            "code": 2018,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CHANNEL_ID",
+            "message": "INVALID CHANNEL ID",
+            "code": 3000,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_DISABLED",
+            "message": "CHANNEL DISABLED",
+            "code": 3001,
+            "successful": false
+        },
+        {
+            "title": "OTP_NOT_ALLOWED",
+            "message": "OTP NOT ALLOWED",
+            "code": 3002,
+            "successful": false
+        },
+        {
+            "title": "SMPP_CONNECTION_NOT_ALLOWED",
+            "message": "SMPP CONNECTION NOT ALLOWED",
+            "code": 3003,
+            "successful": false
+        },
+        {
+            "title": "SDP_CONNECTION_NOT_ALLOWED",
+            "message": "SDP CONNECTION NOT ALLOWED",
+            "code": 3004,
+            "successful": false
+        },
+        {
+            "title": "ONDEMAND_SERVICE_NOT_ALLOWED",
+            "message": "ONDEMAND SERVICE NOT ALLOWED",
+            "code": 3005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONNECTION_DEFINITION",
+            "message": "INVALID CONNECTION DEFINITION",
+            "code": 3006,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SERVICE_DEFINITION",
+            "message": "INVALID SERVICE DEFINITION",
+            "code": 3007,
+            "successful": false
+        },
+        {
+            "title": "INVALID_OPERATOR",
+            "message": "INVALID OPERATOR",
+            "code": 3008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CLICK_ID",
+            "message": "INVALID CLICK ID",
+            "code": 3009,
+            "successful": false
+        },
+        {
+            "title": "CLICK_ID_REQUIRED",
+            "message": "CLICK ID REQUIRED",
+            "code": 3010,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_REQUIRED",
+            "message": "CONTENT REQUIRED",
+            "code": 4000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_LENGTH",
+            "message": "INVALID CONTENT LENGTH",
+            "code": 4001,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_CONTENT",
+            "message": "DUPLICATED CONTENT",
+            "code": 4002,
+            "successful": false
+        },
+        {
+            "title": "CATEGORY_REQUIRED",
+            "message": "CATEGORY REQUIRED",
+            "code": 4003,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CATEGORY_ID",
+            "message": "INVALID CATEGORY ID",
+            "code": 4004,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_TYPE_REQUIRED",
+            "message": "CONTENT TYPE REQUIRED",
+            "code": 4005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_TYPE",
+            "message": "INVALID CONTENT TYPE",
+            "code": 4006,
+            "successful": false
+        },
+        {
+            "title": "FILE_REQUIRED",
+            "message": "FILE REQUIRED",
+            "code": 4007,
+            "successful": false
+        },
+        {
+            "title": "FILE_UPLOAD_ERROR",
+            "message": "FILE UPLOAD ERROR",
+            "code": 4008,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_FOUND",
+            "message": "SCHEDULE NOT FOUND",
+            "code": 4009,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_MODIFIED",
+            "message": "SCHEDULE NOT MODIFIED",
+            "code": 4010,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_ALREADY_PUBLISHED",
+            "message": "SCHEDULE ALREADY PUBLISHED",
+            "code": 4011,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_SCHEDULE",
+            "message": "DUPLICATED SCHEDULE",
+            "code": 4012,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_DATE_REQUIRED",
+            "message": "SCHEDULE DATE REQUIRED",
+            "code": 4013,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SCHEDULE_DATE",
+            "message": "INVALID SCHEDULE DATE",
+            "code": 4014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MESSAGE_TYPE",
+            "message": "INVALID MESSAGE TYPE",
+            "code": 4015,
+            "successful": false
+        },
+        {
+            "title": "INTERNAL_ERROR",
+            "message": "INTERNAL ERROR",
+            "code": 5000,
+            "successful": false
+        },
+        {
+            "title": "PERMISSION_DENIED",
+            "message": "PERMISSION DENIED",
+            "code": 5001,
+            "successful": false
+        },
+        {
+            "title": "DAILY_LIMIT_EXCEEDED",
+            "message": "DAILY LIMIT EXCEEDED",
+            "code": 5002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PARAM_VALUE",
+            "message": "INVALID PARAM VALUE",
+            "code": 5003,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_MT",
+            "message": "ERROR FROM MT",
+            "code": 5004,
+            "successful": false
+        },
+        {
+            "title": "MONGO_EXCEPTION",
+            "message": "MONGO EXCEPTION",
+            "code": 5005,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_CONNECTION",
+            "message": "ERROR FROM CONNECTION",
+            "code": 5006,
+            "successful": false
+        },
+        {
+            "title": "ERROR_PARK_MODE",
+            "message": "ERROR PARK MODE",
+            "code": 5007,
+            "successful": false
+        },
+        {
+            "title": "OTP_REDIRECT_URL_REQUIRED",
+            "message": "OTP REDIRECT URL REQUIRED",
+            "code": 5019,
+            "successful": false
+        },
+        {
+            "title": "REDIRECT_URL_REQUIRED",
+            "message": "REDIRECT URL REQUIRED",
+            "code": 5020,
+            "successful": false
+        }
+    ],
+    "mobily": [
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        },
+        {
+            "title": "INVALID_HTTP_METHOD",
+            "message": "INVALID HTTP METHOD",
+            "code": 1000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_API_KEY",
+            "message": "INVALID API KEY",
+            "code": 1001,
+            "successful": false
+        },
+        {
+            "title": "MISSING_API_KEY",
+            "message": "MISSING API KEY",
+            "code": 1002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_METHOD_NAME",
+            "message": "INVALID METHOD NAME",
+            "code": 1003,
+            "successful": false
+        },
+        {
+            "title": "API_MODULE_NOT_FOUND",
+            "message": "API MODULE NOT FOUND",
+            "code": 1004,
+            "successful": false
+        },
+        {
+            "title": "API_METHOD_NOT_FOUND",
+            "message": "API METHOD NOT FOUND",
+            "code": 1005,
+            "successful": false
+        },
+        {
+            "title": "API_PERMISSION_DENIED",
+            "message": "API PERMISSION DENIED",
+            "code": 1006,
+            "successful": false
+        },
+        {
+            "title": "MISSING_PARAM",
+            "message": "MISSING PARAM",
+            "code": 1007,
+            "successful": false
+        },
+        {
+            "title": "TOO_MANY_PARAMS",
+            "message": "TOO MANY PARAMS",
+            "code": 1008,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_PERMISSION_DENIED",
+            "message": "CHANNEL PERMISSION DENIED",
+            "code": 1009,
+            "successful": false
+        },
+        {
+            "title": "IP_PERMISSION_DENIED",
+            "message": "IP PERMISSION DENIED",
+            "code": 1010,
+            "successful": false
+        },
+        {
+            "title": "BLACKLIST",
+            "message": "BLACKLIST",
+            "code": 2000,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_FOUND",
+            "message": "USER NOT FOUND",
+            "code": 2001,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_SUBSCRIBED",
+            "message": "USER ALREADY SUBSCRIBED",
+            "code": 2002,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_UNSUBSCRIBED",
+            "message": "USER ALREADY UNSUBSCRIBED",
+            "code": 2003,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_SUBSCRIBED",
+            "message": "USER NOT SUBSCRIBED",
+            "code": 2004,
+            "successful": false
+        },
+        {
+            "title": "MSISDN_REQUIRED",
+            "message": "MSISDN REQUIRED",
+            "code": 2005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MSISDN",
+            "message": "INVALID MSISDN",
+            "code": 2006,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_INSERTED",
+            "message": "OTP RECORD NOT INSERTED",
+            "code": 2007,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_FOUND",
+            "message": "OTP RECORD NOT FOUND",
+            "code": 2008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PINCODE",
+            "message": "INVALID PINCODE",
+            "code": 2009,
+            "successful": false
+        },
+        {
+            "title": "PINCODE_ALREADY_SENT",
+            "message": "PINCODE ALREADY SENT",
+            "code": 2010,
+            "successful": false
+        },
+        {
+            "title": "PIN_LIMIT_EXCEEDED",
+            "message": "PIN LIMIT EXCEEDED",
+            "code": 2011,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_PIN",
+            "message": "EXPIRED PIN",
+            "code": 2012,
+            "successful": false
+        },
+        {
+            "title": "INSUFFICIENT_BALANCE",
+            "message": "INSUFFICIENT BALANCE",
+            "code": 2013,
+            "successful": false
+        },
+        {
+            "title": "SUBSCRIPTION_FAIL",
+            "message": "SUBSCRIPTION FAIL",
+            "code": 2014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_AMOUNT",
+            "message": "INVALID AMOUNT",
+            "code": 2015,
+            "successful": false
+        },
+        {
+            "title": "BILLING_FAILED",
+            "message": "BILLING FAILED",
+            "code": 2016,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_CLICK_ID",
+            "message": "EXPIRED CLICK ID",
+            "code": 2017,
+            "successful": false
+        },
+        {
+            "title": "INVALID_TOKEN",
+            "message": "INVALID TOKEN",
+            "code": 2018,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CHANNEL_ID",
+            "message": "INVALID CHANNEL ID",
+            "code": 3000,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_DISABLED",
+            "message": "CHANNEL DISABLED",
+            "code": 3001,
+            "successful": false
+        },
+        {
+            "title": "OTP_NOT_ALLOWED",
+            "message": "OTP NOT ALLOWED",
+            "code": 3002,
+            "successful": false
+        },
+        {
+            "title": "SMPP_CONNECTION_NOT_ALLOWED",
+            "message": "SMPP CONNECTION NOT ALLOWED",
+            "code": 3003,
+            "successful": false
+        },
+        {
+            "title": "SDP_CONNECTION_NOT_ALLOWED",
+            "message": "SDP CONNECTION NOT ALLOWED",
+            "code": 3004,
+            "successful": false
+        },
+        {
+            "title": "ONDEMAND_SERVICE_NOT_ALLOWED",
+            "message": "ONDEMAND SERVICE NOT ALLOWED",
+            "code": 3005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONNECTION_DEFINITION",
+            "message": "INVALID CONNECTION DEFINITION",
+            "code": 3006,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SERVICE_DEFINITION",
+            "message": "INVALID SERVICE DEFINITION",
+            "code": 3007,
+            "successful": false
+        },
+        {
+            "title": "INVALID_OPERATOR",
+            "message": "INVALID OPERATOR",
+            "code": 3008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CLICK_ID",
+            "message": "INVALID CLICK ID",
+            "code": 3009,
+            "successful": false
+        },
+        {
+            "title": "CLICK_ID_REQUIRED",
+            "message": "CLICK ID REQUIRED",
+            "code": 3010,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_REQUIRED",
+            "message": "CONTENT REQUIRED",
+            "code": 4000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_LENGTH",
+            "message": "INVALID CONTENT LENGTH",
+            "code": 4001,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_CONTENT",
+            "message": "DUPLICATED CONTENT",
+            "code": 4002,
+            "successful": false
+        },
+        {
+            "title": "CATEGORY_REQUIRED",
+            "message": "CATEGORY REQUIRED",
+            "code": 4003,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CATEGORY_ID",
+            "message": "INVALID CATEGORY ID",
+            "code": 4004,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_TYPE_REQUIRED",
+            "message": "CONTENT TYPE REQUIRED",
+            "code": 4005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_TYPE",
+            "message": "INVALID CONTENT TYPE",
+            "code": 4006,
+            "successful": false
+        },
+        {
+            "title": "FILE_REQUIRED",
+            "message": "FILE REQUIRED",
+            "code": 4007,
+            "successful": false
+        },
+        {
+            "title": "FILE_UPLOAD_ERROR",
+            "message": "FILE UPLOAD ERROR",
+            "code": 4008,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_FOUND",
+            "message": "SCHEDULE NOT FOUND",
+            "code": 4009,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_MODIFIED",
+            "message": "SCHEDULE NOT MODIFIED",
+            "code": 4010,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_ALREADY_PUBLISHED",
+            "message": "SCHEDULE ALREADY PUBLISHED",
+            "code": 4011,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_SCHEDULE",
+            "message": "DUPLICATED SCHEDULE",
+            "code": 4012,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_DATE_REQUIRED",
+            "message": "SCHEDULE DATE REQUIRED",
+            "code": 4013,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SCHEDULE_DATE",
+            "message": "INVALID SCHEDULE DATE",
+            "code": 4014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MESSAGE_TYPE",
+            "message": "INVALID MESSAGE TYPE",
+            "code": 4015,
+            "successful": false
+        },
+        {
+            "title": "INTERNAL_ERROR",
+            "message": "INTERNAL ERROR",
+            "code": 5000,
+            "successful": false
+        },
+        {
+            "title": "PERMISSION_DENIED",
+            "message": "PERMISSION DENIED",
+            "code": 5001,
+            "successful": false
+        },
+        {
+            "title": "DAILY_LIMIT_EXCEEDED",
+            "message": "DAILY LIMIT EXCEEDED",
+            "code": 5002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PARAM_VALUE",
+            "message": "INVALID PARAM VALUE",
+            "code": 5003,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_MT",
+            "message": "ERROR FROM MT",
+            "code": 5004,
+            "successful": false
+        },
+        {
+            "title": "MONGO_EXCEPTION",
+            "message": "MONGO EXCEPTION",
+            "code": 5005,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_CONNECTION",
+            "message": "ERROR FROM CONNECTION",
+            "code": 5006,
+            "successful": false
+        },
+        {
+            "title": "ERROR_PARK_MODE",
+            "message": "ERROR PARK MODE",
+            "code": 5007,
+            "successful": false
+        },
+        {
+            "title": "OTP_REDIRECT_URL_REQUIRED",
+            "message": "OTP REDIRECT URL REQUIRED",
+            "code": 5019,
+            "successful": false
+        },
+        {
+            "title": "REDIRECT_URL_REQUIRED",
+            "message": "REDIRECT URL REQUIRED",
+            "code": 5020,
+            "successful": false
+        }
+    ],
+    "vodafone": [
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        },
+        {
+            "title": "INVALID_HTTP_METHOD",
+            "message": "INVALID HTTP METHOD",
+            "code": 1000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_API_KEY",
+            "message": "INVALID API KEY",
+            "code": 1001,
+            "successful": false
+        },
+        {
+            "title": "MISSING_API_KEY",
+            "message": "MISSING API KEY",
+            "code": 1002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_METHOD_NAME",
+            "message": "INVALID METHOD NAME",
+            "code": 1003,
+            "successful": false
+        },
+        {
+            "title": "API_MODULE_NOT_FOUND",
+            "message": "API MODULE NOT FOUND",
+            "code": 1004,
+            "successful": false
+        },
+        {
+            "title": "API_METHOD_NOT_FOUND",
+            "message": "API METHOD NOT FOUND",
+            "code": 1005,
+            "successful": false
+        },
+        {
+            "title": "API_PERMISSION_DENIED",
+            "message": "API PERMISSION DENIED",
+            "code": 1006,
+            "successful": false
+        },
+        {
+            "title": "MISSING_PARAM",
+            "message": "MISSING PARAM",
+            "code": 1007,
+            "successful": false
+        },
+        {
+            "title": "TOO_MANY_PARAMS",
+            "message": "TOO MANY PARAMS",
+            "code": 1008,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_PERMISSION_DENIED",
+            "message": "CHANNEL PERMISSION DENIED",
+            "code": 1009,
+            "successful": false
+        },
+        {
+            "title": "IP_PERMISSION_DENIED",
+            "message": "IP PERMISSION DENIED",
+            "code": 1010,
+            "successful": false
+        },
+        {
+            "title": "BLACKLIST",
+            "message": "BLACKLIST",
+            "code": 2000,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_FOUND",
+            "message": "USER NOT FOUND",
+            "code": 2001,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_SUBSCRIBED",
+            "message": "USER ALREADY SUBSCRIBED",
+            "code": 2002,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_UNSUBSCRIBED",
+            "message": "USER ALREADY UNSUBSCRIBED",
+            "code": 2003,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_SUBSCRIBED",
+            "message": "USER NOT SUBSCRIBED",
+            "code": 2004,
+            "successful": false
+        },
+        {
+            "title": "MSISDN_REQUIRED",
+            "message": "MSISDN REQUIRED",
+            "code": 2005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MSISDN",
+            "message": "INVALID MSISDN",
+            "code": 2006,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_INSERTED",
+            "message": "OTP RECORD NOT INSERTED",
+            "code": 2007,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_FOUND",
+            "message": "OTP RECORD NOT FOUND",
+            "code": 2008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PINCODE",
+            "message": "INVALID PINCODE",
+            "code": 2009,
+            "successful": false
+        },
+        {
+            "title": "PINCODE_ALREADY_SENT",
+            "message": "PINCODE ALREADY SENT",
+            "code": 2010,
+            "successful": false
+        },
+        {
+            "title": "PIN_LIMIT_EXCEEDED",
+            "message": "PIN LIMIT EXCEEDED",
+            "code": 2011,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_PIN",
+            "message": "EXPIRED PIN",
+            "code": 2012,
+            "successful": false
+        },
+        {
+            "title": "INSUFFICIENT_BALANCE",
+            "message": "INSUFFICIENT BALANCE",
+            "code": 2013,
+            "successful": false
+        },
+        {
+            "title": "SUBSCRIPTION_FAIL",
+            "message": "SUBSCRIPTION FAIL",
+            "code": 2014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_AMOUNT",
+            "message": "INVALID AMOUNT",
+            "code": 2015,
+            "successful": false
+        },
+        {
+            "title": "BILLING_FAILED",
+            "message": "BILLING FAILED",
+            "code": 2016,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_CLICK_ID",
+            "message": "EXPIRED CLICK ID",
+            "code": 2017,
+            "successful": false
+        },
+        {
+            "title": "INVALID_TOKEN",
+            "message": "INVALID TOKEN",
+            "code": 2018,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CHANNEL_ID",
+            "message": "INVALID CHANNEL ID",
+            "code": 3000,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_DISABLED",
+            "message": "CHANNEL DISABLED",
+            "code": 3001,
+            "successful": false
+        },
+        {
+            "title": "OTP_NOT_ALLOWED",
+            "message": "OTP NOT ALLOWED",
+            "code": 3002,
+            "successful": false
+        },
+        {
+            "title": "SMPP_CONNECTION_NOT_ALLOWED",
+            "message": "SMPP CONNECTION NOT ALLOWED",
+            "code": 3003,
+            "successful": false
+        },
+        {
+            "title": "SDP_CONNECTION_NOT_ALLOWED",
+            "message": "SDP CONNECTION NOT ALLOWED",
+            "code": 3004,
+            "successful": false
+        },
+        {
+            "title": "ONDEMAND_SERVICE_NOT_ALLOWED",
+            "message": "ONDEMAND SERVICE NOT ALLOWED",
+            "code": 3005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONNECTION_DEFINITION",
+            "message": "INVALID CONNECTION DEFINITION",
+            "code": 3006,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SERVICE_DEFINITION",
+            "message": "INVALID SERVICE DEFINITION",
+            "code": 3007,
+            "successful": false
+        },
+        {
+            "title": "INVALID_OPERATOR",
+            "message": "INVALID OPERATOR",
+            "code": 3008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CLICK_ID",
+            "message": "INVALID CLICK ID",
+            "code": 3009,
+            "successful": false
+        },
+        {
+            "title": "CLICK_ID_REQUIRED",
+            "message": "CLICK ID REQUIRED",
+            "code": 3010,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_REQUIRED",
+            "message": "CONTENT REQUIRED",
+            "code": 4000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_LENGTH",
+            "message": "INVALID CONTENT LENGTH",
+            "code": 4001,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_CONTENT",
+            "message": "DUPLICATED CONTENT",
+            "code": 4002,
+            "successful": false
+        },
+        {
+            "title": "CATEGORY_REQUIRED",
+            "message": "CATEGORY REQUIRED",
+            "code": 4003,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CATEGORY_ID",
+            "message": "INVALID CATEGORY ID",
+            "code": 4004,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_TYPE_REQUIRED",
+            "message": "CONTENT TYPE REQUIRED",
+            "code": 4005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_TYPE",
+            "message": "INVALID CONTENT TYPE",
+            "code": 4006,
+            "successful": false
+        },
+        {
+            "title": "FILE_REQUIRED",
+            "message": "FILE REQUIRED",
+            "code": 4007,
+            "successful": false
+        },
+        {
+            "title": "FILE_UPLOAD_ERROR",
+            "message": "FILE UPLOAD ERROR",
+            "code": 4008,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_FOUND",
+            "message": "SCHEDULE NOT FOUND",
+            "code": 4009,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_MODIFIED",
+            "message": "SCHEDULE NOT MODIFIED",
+            "code": 4010,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_ALREADY_PUBLISHED",
+            "message": "SCHEDULE ALREADY PUBLISHED",
+            "code": 4011,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_SCHEDULE",
+            "message": "DUPLICATED SCHEDULE",
+            "code": 4012,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_DATE_REQUIRED",
+            "message": "SCHEDULE DATE REQUIRED",
+            "code": 4013,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SCHEDULE_DATE",
+            "message": "INVALID SCHEDULE DATE",
+            "code": 4014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MESSAGE_TYPE",
+            "message": "INVALID MESSAGE TYPE",
+            "code": 4015,
+            "successful": false
+        },
+        {
+            "title": "INTERNAL_ERROR",
+            "message": "INTERNAL ERROR",
+            "code": 5000,
+            "successful": false
+        },
+        {
+            "title": "PERMISSION_DENIED",
+            "message": "PERMISSION DENIED",
+            "code": 5001,
+            "successful": false
+        },
+        {
+            "title": "DAILY_LIMIT_EXCEEDED",
+            "message": "DAILY LIMIT EXCEEDED",
+            "code": 5002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PARAM_VALUE",
+            "message": "INVALID PARAM VALUE",
+            "code": 5003,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_MT",
+            "message": "ERROR FROM MT",
+            "code": 5004,
+            "successful": false
+        },
+        {
+            "title": "MONGO_EXCEPTION",
+            "message": "MONGO EXCEPTION",
+            "code": 5005,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_CONNECTION",
+            "message": "ERROR FROM CONNECTION",
+            "code": 5006,
+            "successful": false
+        },
+        {
+            "title": "ERROR_PARK_MODE",
+            "message": "ERROR PARK MODE",
+            "code": 5007,
+            "successful": false
+        },
+        {
+            "title": "OTP_REDIRECT_URL_REQUIRED",
+            "message": "OTP REDIRECT URL REQUIRED",
+            "code": 5019,
+            "successful": false
+        },
+        {
+            "title": "REDIRECT_URL_REQUIRED",
+            "message": "REDIRECT URL REQUIRED",
+            "code": 5020,
+            "successful": false
+        }
+    ],
+    "sabafon": [
+        {
+            "title": "Success",
+            "message": "Success code sent",
+            "code": 1258,
+            "successful": false
+        },
+        {
+            "title": "something_wrong",
+            "message": "something went wrong please try again",
+            "code": 1258,
+            "successful": true
+        },
+        {
+            "title": "Invalid_Msisdn",
+            "message": "Invalid msisdn",
+            "code": 2006,
+            "successful": false
+        }
+    ],
+    "zain": [
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        },
+        {
+            "title": "something_wrong",
+            "message": "something went wrong please try again",
+            "code": 1258,
+            "successful": true
+        },
+        {
+            "title": "Invalid_Msisdn",
+            "message": "Invalid msisdn",
+            "code": 2006,
+            "successful": false
+        }
+    ],
+    "zain_bahrain": [
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        },
+        {
+            "title": "INVALID_HTTP_METHOD",
+            "message": "INVALID HTTP METHOD",
+            "code": 1000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_API_KEY",
+            "message": "INVALID API KEY",
+            "code": 1001,
+            "successful": false
+        },
+        {
+            "title": "MISSING_API_KEY",
+            "message": "MISSING API KEY",
+            "code": 1002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_METHOD_NAME",
+            "message": "INVALID METHOD NAME",
+            "code": 1003,
+            "successful": false
+        },
+        {
+            "title": "API_MODULE_NOT_FOUND",
+            "message": "API MODULE NOT FOUND",
+            "code": 1004,
+            "successful": false
+        },
+        {
+            "title": "API_METHOD_NOT_FOUND",
+            "message": "API METHOD NOT FOUND",
+            "code": 1005,
+            "successful": false
+        },
+        {
+            "title": "API_PERMISSION_DENIED",
+            "message": "API PERMISSION DENIED",
+            "code": 1006,
+            "successful": false
+        },
+        {
+            "title": "MISSING_PARAM",
+            "message": "MISSING PARAM",
+            "code": 1007,
+            "successful": false
+        },
+        {
+            "title": "TOO_MANY_PARAMS",
+            "message": "TOO MANY PARAMS",
+            "code": 1008,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_PERMISSION_DENIED",
+            "message": "CHANNEL PERMISSION DENIED",
+            "code": 1009,
+            "successful": false
+        },
+        {
+            "title": "IP_PERMISSION_DENIED",
+            "message": "IP PERMISSION DENIED",
+            "code": 1010,
+            "successful": false
+        },
+        {
+            "title": "BLACKLIST",
+            "message": "BLACKLIST",
+            "code": 2000,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_FOUND",
+            "message": "USER NOT FOUND",
+            "code": 2001,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_SUBSCRIBED",
+            "message": "USER ALREADY SUBSCRIBED",
+            "code": 2002,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_UNSUBSCRIBED",
+            "message": "USER ALREADY UNSUBSCRIBED",
+            "code": 2003,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_SUBSCRIBED",
+            "message": "USER NOT SUBSCRIBED",
+            "code": 2004,
+            "successful": false
+        },
+        {
+            "title": "MSISDN_REQUIRED",
+            "message": "MSISDN REQUIRED",
+            "code": 2005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MSISDN",
+            "message": "INVALID MSISDN",
+            "code": 2006,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_INSERTED",
+            "message": "OTP RECORD NOT INSERTED",
+            "code": 2007,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_FOUND",
+            "message": "OTP RECORD NOT FOUND",
+            "code": 2008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PINCODE",
+            "message": "INVALID PINCODE",
+            "code": 2009,
+            "successful": false
+        },
+        {
+            "title": "PINCODE_ALREADY_SENT",
+            "message": "PINCODE ALREADY SENT",
+            "code": 2010,
+            "successful": false
+        },
+        {
+            "title": "PIN_LIMIT_EXCEEDED",
+            "message": "PIN LIMIT EXCEEDED",
+            "code": 2011,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_PIN",
+            "message": "EXPIRED PIN",
+            "code": 2012,
+            "successful": false
+        },
+        {
+            "title": "INSUFFICIENT_BALANCE",
+            "message": "INSUFFICIENT BALANCE",
+            "code": 2013,
+            "successful": false
+        },
+        {
+            "title": "SUBSCRIPTION_FAIL",
+            "message": "SUBSCRIPTION FAIL",
+            "code": 2014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_AMOUNT",
+            "message": "INVALID AMOUNT",
+            "code": 2015,
+            "successful": false
+        },
+        {
+            "title": "BILLING_FAILED",
+            "message": "BILLING FAILED",
+            "code": 2016,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_CLICK_ID",
+            "message": "EXPIRED CLICK ID",
+            "code": 2017,
+            "successful": false
+        },
+        {
+            "title": "INVALID_TOKEN",
+            "message": "INVALID TOKEN",
+            "code": 2018,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CHANNEL_ID",
+            "message": "INVALID CHANNEL ID",
+            "code": 3000,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_DISABLED",
+            "message": "CHANNEL DISABLED",
+            "code": 3001,
+            "successful": false
+        },
+        {
+            "title": "OTP_NOT_ALLOWED",
+            "message": "OTP NOT ALLOWED",
+            "code": 3002,
+            "successful": false
+        },
+        {
+            "title": "SMPP_CONNECTION_NOT_ALLOWED",
+            "message": "SMPP CONNECTION NOT ALLOWED",
+            "code": 3003,
+            "successful": false
+        },
+        {
+            "title": "SDP_CONNECTION_NOT_ALLOWED",
+            "message": "SDP CONNECTION NOT ALLOWED",
+            "code": 3004,
+            "successful": false
+        },
+        {
+            "title": "ONDEMAND_SERVICE_NOT_ALLOWED",
+            "message": "ONDEMAND SERVICE NOT ALLOWED",
+            "code": 3005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONNECTION_DEFINITION",
+            "message": "INVALID CONNECTION DEFINITION",
+            "code": 3006,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SERVICE_DEFINITION",
+            "message": "INVALID SERVICE DEFINITION",
+            "code": 3007,
+            "successful": false
+        },
+        {
+            "title": "INVALID_OPERATOR",
+            "message": "INVALID OPERATOR",
+            "code": 3008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CLICK_ID",
+            "message": "INVALID CLICK ID",
+            "code": 3009,
+            "successful": false
+        },
+        {
+            "title": "CLICK_ID_REQUIRED",
+            "message": "CLICK ID REQUIRED",
+            "code": 3010,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_REQUIRED",
+            "message": "CONTENT REQUIRED",
+            "code": 4000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_LENGTH",
+            "message": "INVALID CONTENT LENGTH",
+            "code": 4001,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_CONTENT",
+            "message": "DUPLICATED CONTENT",
+            "code": 4002,
+            "successful": false
+        },
+        {
+            "title": "CATEGORY_REQUIRED",
+            "message": "CATEGORY REQUIRED",
+            "code": 4003,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CATEGORY_ID",
+            "message": "INVALID CATEGORY ID",
+            "code": 4004,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_TYPE_REQUIRED",
+            "message": "CONTENT TYPE REQUIRED",
+            "code": 4005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_TYPE",
+            "message": "INVALID CONTENT TYPE",
+            "code": 4006,
+            "successful": false
+        },
+        {
+            "title": "FILE_REQUIRED",
+            "message": "FILE REQUIRED",
+            "code": 4007,
+            "successful": false
+        },
+        {
+            "title": "FILE_UPLOAD_ERROR",
+            "message": "FILE UPLOAD ERROR",
+            "code": 4008,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_FOUND",
+            "message": "SCHEDULE NOT FOUND",
+            "code": 4009,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_MODIFIED",
+            "message": "SCHEDULE NOT MODIFIED",
+            "code": 4010,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_ALREADY_PUBLISHED",
+            "message": "SCHEDULE ALREADY PUBLISHED",
+            "code": 4011,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_SCHEDULE",
+            "message": "DUPLICATED SCHEDULE",
+            "code": 4012,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_DATE_REQUIRED",
+            "message": "SCHEDULE DATE REQUIRED",
+            "code": 4013,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SCHEDULE_DATE",
+            "message": "INVALID SCHEDULE DATE",
+            "code": 4014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MESSAGE_TYPE",
+            "message": "INVALID MESSAGE TYPE",
+            "code": 4015,
+            "successful": false
+        },
+        {
+            "title": "INTERNAL_ERROR",
+            "message": "INTERNAL ERROR",
+            "code": 5000,
+            "successful": false
+        },
+        {
+            "title": "PERMISSION_DENIED",
+            "message": "PERMISSION DENIED",
+            "code": 5001,
+            "successful": false
+        },
+        {
+            "title": "DAILY_LIMIT_EXCEEDED",
+            "message": "DAILY LIMIT EXCEEDED",
+            "code": 5002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PARAM_VALUE",
+            "message": "INVALID PARAM VALUE",
+            "code": 5003,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_MT",
+            "message": "ERROR FROM MT",
+            "code": 5004,
+            "successful": false
+        },
+        {
+            "title": "MONGO_EXCEPTION",
+            "message": "MONGO EXCEPTION",
+            "code": 5005,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_CONNECTION",
+            "message": "ERROR FROM CONNECTION",
+            "code": 5006,
+            "successful": false
+        },
+        {
+            "title": "ERROR_PARK_MODE",
+            "message": "ERROR PARK MODE",
+            "code": 5007,
+            "successful": false
+        },
+        {
+            "title": "OTP_REDIRECT_URL_REQUIRED",
+            "message": "OTP REDIRECT URL REQUIRED",
+            "code": 5019,
+            "successful": false
+        },
+        {
+            "title": "REDIRECT_URL_REQUIRED",
+            "message": "REDIRECT URL REQUIRED",
+            "code": 5020,
+            "successful": false
+        }
+    ],
+    "zain_ksa": [
+        {
+            "title": "Success",
+            "message": "Success",
+            "code":200,
+            "successful": true
+        },
+        {
+            "title": "INVALID_HTTP_METHOD",
+            "message": "INVALID HTTP METHOD",
+            "code": 1000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_API_KEY",
+            "message": "INVALID API KEY",
+            "code": 1001,
+            "successful": false
+        },
+        {
+            "title": "MISSING_API_KEY",
+            "message": "MISSING API KEY",
+            "code": 1002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_METHOD_NAME",
+            "message": "INVALID METHOD NAME",
+            "code": 1003,
+            "successful": false
+        },
+        {
+            "title": "API_MODULE_NOT_FOUND",
+            "message": "API MODULE NOT FOUND",
+            "code": 1004,
+            "successful": false
+        },
+        {
+            "title": "API_METHOD_NOT_FOUND",
+            "message": "API METHOD NOT FOUND",
+            "code": 1005,
+            "successful": false
+        },
+        {
+            "title": "API_PERMISSION_DENIED",
+            "message": "API PERMISSION DENIED",
+            "code": 1006,
+            "successful": false
+        },
+        {
+            "title": "MISSING_PARAM",
+            "message": "MISSING PARAM",
+            "code": 1007,
+            "successful": false
+        },
+        {
+            "title": "TOO_MANY_PARAMS",
+            "message": "TOO MANY PARAMS",
+            "code": 1008,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_PERMISSION_DENIED",
+            "message": "CHANNEL PERMISSION DENIED",
+            "code": 1009,
+            "successful": false
+        },
+        {
+            "title": "IP_PERMISSION_DENIED",
+            "message": "IP PERMISSION DENIED",
+            "code": 1010,
+            "successful": false
+        },
+        {
+            "title": "BLACKLIST",
+            "message": "BLACKLIST",
+            "code": 2000,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_FOUND",
+            "message": "USER NOT FOUND",
+            "code": 2001,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_SUBSCRIBED",
+            "message": "USER ALREADY SUBSCRIBED",
+            "code": 2002,
+            "successful": false
+        },
+        {
+            "title": "USER_ALREADY_UNSUBSCRIBED",
+            "message": "USER ALREADY UNSUBSCRIBED",
+            "code": 2003,
+            "successful": false
+        },
+        {
+            "title": "USER_NOT_SUBSCRIBED",
+            "message": "USER NOT SUBSCRIBED",
+            "code": 2004,
+            "successful": false
+        },
+        {
+            "title": "MSISDN_REQUIRED",
+            "message": "MSISDN REQUIRED",
+            "code": 2005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MSISDN",
+            "message": "INVALID MSISDN",
+            "code": 2006,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_INSERTED",
+            "message": "OTP RECORD NOT INSERTED",
+            "code": 2007,
+            "successful": false
+        },
+        {
+            "title": "OTP_RECORD_NOT_FOUND",
+            "message": "OTP RECORD NOT FOUND",
+            "code": 2008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PINCODE",
+            "message": "INVALID PINCODE",
+            "code": 2009,
+            "successful": false
+        },
+        {
+            "title": "PINCODE_ALREADY_SENT",
+            "message": "PINCODE ALREADY SENT",
+            "code": 2010,
+            "successful": false
+        },
+        {
+            "title": "PIN_LIMIT_EXCEEDED",
+            "message": "PIN LIMIT EXCEEDED",
+            "code": 2011,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_PIN",
+            "message": "EXPIRED PIN",
+            "code": 2012,
+            "successful": false
+        },
+        {
+            "title": "INSUFFICIENT_BALANCE",
+            "message": "INSUFFICIENT BALANCE",
+            "code": 2013,
+            "successful": false
+        },
+        {
+            "title": "SUBSCRIPTION_FAIL",
+            "message": "SUBSCRIPTION FAIL",
+            "code": 2014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_AMOUNT",
+            "message": "INVALID AMOUNT",
+            "code": 2015,
+            "successful": false
+        },
+        {
+            "title": "BILLING_FAILED",
+            "message": "BILLING FAILED",
+            "code": 2016,
+            "successful": false
+        },
+        {
+            "title": "EXPIRED_CLICK_ID",
+            "message": "EXPIRED CLICK ID",
+            "code": 2017,
+            "successful": false
+        },
+        {
+            "title": "INVALID_TOKEN",
+            "message": "INVALID TOKEN",
+            "code": 2018,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CHANNEL_ID",
+            "message": "INVALID CHANNEL ID",
+            "code": 3000,
+            "successful": false
+        },
+        {
+            "title": "CHANNEL_DISABLED",
+            "message": "CHANNEL DISABLED",
+            "code": 3001,
+            "successful": false
+        },
+        {
+            "title": "OTP_NOT_ALLOWED",
+            "message": "OTP NOT ALLOWED",
+            "code": 3002,
+            "successful": false
+        },
+        {
+            "title": "SMPP_CONNECTION_NOT_ALLOWED",
+            "message": "SMPP CONNECTION NOT ALLOWED",
+            "code": 3003,
+            "successful": false
+        },
+        {
+            "title": "SDP_CONNECTION_NOT_ALLOWED",
+            "message": "SDP CONNECTION NOT ALLOWED",
+            "code": 3004,
+            "successful": false
+        },
+        {
+            "title": "ONDEMAND_SERVICE_NOT_ALLOWED",
+            "message": "ONDEMAND SERVICE NOT ALLOWED",
+            "code": 3005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONNECTION_DEFINITION",
+            "message": "INVALID CONNECTION DEFINITION",
+            "code": 3006,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SERVICE_DEFINITION",
+            "message": "INVALID SERVICE DEFINITION",
+            "code": 3007,
+            "successful": false
+        },
+        {
+            "title": "INVALID_OPERATOR",
+            "message": "INVALID OPERATOR",
+            "code": 3008,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CLICK_ID",
+            "message": "INVALID CLICK ID",
+            "code": 3009,
+            "successful": false
+        },
+        {
+            "title": "CLICK_ID_REQUIRED",
+            "message": "CLICK ID REQUIRED",
+            "code": 3010,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_REQUIRED",
+            "message": "CONTENT REQUIRED",
+            "code": 4000,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_LENGTH",
+            "message": "INVALID CONTENT LENGTH",
+            "code": 4001,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_CONTENT",
+            "message": "DUPLICATED CONTENT",
+            "code": 4002,
+            "successful": false
+        },
+        {
+            "title": "CATEGORY_REQUIRED",
+            "message": "CATEGORY REQUIRED",
+            "code": 4003,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CATEGORY_ID",
+            "message": "INVALID CATEGORY ID",
+            "code": 4004,
+            "successful": false
+        },
+        {
+            "title": "CONTENT_TYPE_REQUIRED",
+            "message": "CONTENT TYPE REQUIRED",
+            "code": 4005,
+            "successful": false
+        },
+        {
+            "title": "INVALID_CONTENT_TYPE",
+            "message": "INVALID CONTENT TYPE",
+            "code": 4006,
+            "successful": false
+        },
+        {
+            "title": "FILE_REQUIRED",
+            "message": "FILE REQUIRED",
+            "code": 4007,
+            "successful": false
+        },
+        {
+            "title": "FILE_UPLOAD_ERROR",
+            "message": "FILE UPLOAD ERROR",
+            "code": 4008,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_FOUND",
+            "message": "SCHEDULE NOT FOUND",
+            "code": 4009,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_NOT_MODIFIED",
+            "message": "SCHEDULE NOT MODIFIED",
+            "code": 4010,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_ALREADY_PUBLISHED",
+            "message": "SCHEDULE ALREADY PUBLISHED",
+            "code": 4011,
+            "successful": false
+        },
+        {
+            "title": "DUPLICATED_SCHEDULE",
+            "message": "DUPLICATED SCHEDULE",
+            "code": 4012,
+            "successful": false
+        },
+        {
+            "title": "SCHEDULE_DATE_REQUIRED",
+            "message": "SCHEDULE DATE REQUIRED",
+            "code": 4013,
+            "successful": false
+        },
+        {
+            "title": "INVALID_SCHEDULE_DATE",
+            "message": "INVALID SCHEDULE DATE",
+            "code": 4014,
+            "successful": false
+        },
+        {
+            "title": "INVALID_MESSAGE_TYPE",
+            "message": "INVALID MESSAGE TYPE",
+            "code": 4015,
+            "successful": false
+        },
+        {
+            "title": "INTERNAL_ERROR",
+            "message": "INTERNAL ERROR",
+            "code": 5000,
+            "successful": false
+        },
+        {
+            "title": "PERMISSION_DENIED",
+            "message": "PERMISSION DENIED",
+            "code": 5001,
+            "successful": false
+        },
+        {
+            "title": "DAILY_LIMIT_EXCEEDED",
+            "message": "DAILY LIMIT EXCEEDED",
+            "code": 5002,
+            "successful": false
+        },
+        {
+            "title": "INVALID_PARAM_VALUE",
+            "message": "INVALID PARAM VALUE",
+            "code": 5003,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_MT",
+            "message": "ERROR FROM MT",
+            "code": 5004,
+            "successful": false
+        },
+        {
+            "title": "MONGO_EXCEPTION",
+            "message": "MONGO EXCEPTION",
+            "code": 5005,
+            "successful": false
+        },
+        {
+            "title": "ERROR_FROM_CONNECTION",
+            "message": "ERROR FROM CONNECTION",
+            "code": 5006,
+            "successful": false
+        },
+        {
+            "title": "ERROR_PARK_MODE",
+            "message": "ERROR PARK MODE",
+            "code": 5007,
+            "successful": false
+        },
+        {
+            "title": "OTP_REDIRECT_URL_REQUIRED",
+            "message": "OTP REDIRECT URL REQUIRED",
+            "code": 5019,
+            "successful": false
+        },
+        {
+            "title": "REDIRECT_URL_REQUIRED",
+            "message": "REDIRECT URL REQUIRED",
+            "code": 5020,
+            "successful": false
+        }
+    ]
+}
