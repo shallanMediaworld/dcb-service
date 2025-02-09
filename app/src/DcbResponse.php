@@ -199,7 +199,7 @@ class DcbResponse implements DcbInterface
             "data" => $data
         ];
 
-        LogsService::logsOperator($action, $this->operator, $confLog);
+        // LogsService::logsOperator($action, $this->operator, $confLog);
     }
 
     /**

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\DCBController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
  
@@ -18,7 +19,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('test', function (Request $request) {
 
     dd($request->token ?? null);
+
 });
+
+Route::get('send-otp', [DCBController::class,'sendOtp']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

@@ -52,6 +52,7 @@ if (!function_exists('sendMessage')) {
 
         if ($dcb === null) return false;
 
+
         return $dcb->sendMessage($phone, $message);
     }
 }
@@ -120,21 +121,6 @@ if (!function_exists('cehckLimit')) {
     }
 }
 
-if (!function_exists('setCartConfig')) {
-    /**
-     * Enable cart and set the cart ID in configuration.
-     *
-     * @param int $cart_id
-     * @return void
-     */
-    function setCartConfig(int $cart_id)
-    {
-        $dcb = dcb();
-
-        return $dcb->setCartConfig($cart_id);
-    }
-}
-
 
 if (!function_exists('operatorAvailable')) {
     /**
@@ -145,13 +131,9 @@ if (!function_exists('operatorAvailable')) {
      */
     function operatorAvailable()
     {
-        // try {
-            $dcb = dcb();
-        // } catch (Throwable  $e) {
-        //     return [];
-        // }
-
-
+  
+        $dcb = dcb();
+       
         return $dcb->operatorAvailable();
     }
 }
