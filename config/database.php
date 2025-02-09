@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'mongodb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -91,6 +91,17 @@ return [
             'prefix_indexes' => true,
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
+        ],
+
+        'mongodb' => [
+            'driver'   => 'mongodb',
+            'dsn'      => env('DB_DSN', 'mongodb://admin:0lxoeXdkkmi3OTr@139.162.229.57:27017/'),
+            'database' => env('DB_DATABASE', 'middleware'),
+            'username' => env('DB_USERNAME', 'admin'),
+            'password' => env('DB_PASSWORD', '0lxoeXdkkmi3OTr'),
+            'options'  => [
+                'ssl' => false,
+            ],
         ],
 
     ],
