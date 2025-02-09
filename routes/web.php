@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WebView\VisaWebViewController;
+use App\Http\Controllers\TestController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +15,7 @@ use App\Http\Controllers\WebView\VisaWebViewController;
 
 Route::get('/', function () {
     return view('welcome');
+
 });
+
+Route::get('test', TestController::class);
