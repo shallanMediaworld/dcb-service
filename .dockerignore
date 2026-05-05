@@ -1,0 +1,9 @@
+vendor/
+node_modules/
+.git/
+.vscode/
+.idea/
+Dockerfile
+docker-compose.yml
+tests/
+ 
